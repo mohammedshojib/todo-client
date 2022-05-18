@@ -11,7 +11,7 @@ const Home = () => {
       description: event.target.description.value,
     };
     //<===== UPLOAD CAR ====>
-    const url = "http://localhost:5000/mytodo";
+    const url = "https://todo-by-shojib.herokuapp.com/mytodo";
     fetch(url, {
       method: "POST",
       headers: {
@@ -27,7 +27,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/todo")
+    fetch("https://todo-by-shojib.herokuapp.com/todo")
       .then((res) => res.json())
       .then((data) => setTodolist(data));
   }, []);
