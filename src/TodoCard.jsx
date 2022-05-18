@@ -18,7 +18,7 @@ const TodoCard = ({ todo, todolist, setTodolist }) => {
           const remaining = todolist.filter((newTodo) => newTodo._id !== id);
           setTodolist(remaining);
 
-          toast("Car deleted succsessfully");
+          toast("Todo deleted succsessfully");
         });
     }
   };
