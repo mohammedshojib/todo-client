@@ -39,9 +39,8 @@ const Home = () => {
             <div class="text-center lg:text-left">
               <h1 class="text-5xl font-bold">My Special ToDo App</h1>
               <p class="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+                Todo app stant for list your daily task and you can add your
+                inmportant notes
               </p>
             </div>
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
